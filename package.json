@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "make": "http-server ./dist",
     "start": "webpack serve --mode development",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
